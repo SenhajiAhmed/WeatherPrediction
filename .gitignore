@@ -1,0 +1,9 @@
+# Ignore everything inside data/
+era5_data/*
+era5_data_csv/*
+
+# But don’t ignore the folder itself
+!era5_data/.gitkeep
+!era5_data_csv/.gitkeep
+
+__pycache__/
