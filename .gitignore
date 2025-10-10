@@ -3,11 +3,13 @@ era5_data/*
 era5_data_csv/*
 era5_data_csv_cleaned/*
 era5_features/*
+processed_data/*
 
 # But don’t ignore the folder itself
 !era5_data/.gitkeep
 !era5_data_csv/.gitkeep
 !era5_data_csv_cleaned/.gitkeep
 !era5_features/.gitkeep
+!processed_data/.gitkeep
 
 __pycache__/
